@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni - Premium Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nv py-3">
+        <div class="container">
+            <a class="navbar-brand nb fw-bold" href="#">Furni.</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mnu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mnu">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link nvl" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link nvl" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link nvl" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link nvl" href="service.html">Service</a></li>
+
+                    <li class="nav-item"><a class="nav-link nvl" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link nvl" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link nvl" href="cart.html">Cart</a></li>
+   <li class="nav-item"><a class="nav-link nvl" href="checkout.html"><i class="fa-regular fa-user"></i></a></li>     
+   <li class="nav-item"><a class="nav-link nvl" href="order.html"><i class="fa-solid fa-cart-shopping"></i></a></li>                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="bnr">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Your Cart</h1>
+                    <p>Review your items and proceed to checkout.</p>
+                    <button class="btn1 me-2">Shop More</button>
+                    <button class="btn2">Checkout</button>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="Images/couch.png" class="img-fluid" alt="sofa" style="max-width: 90%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="crt-sec">
+        <div class="container">
+            <div class="crtbl">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Qty</th>
+                            <th>Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="Images/product-1.png" class="prdimg"></td>
+                            <td class="fw-bold">Nordic Chair</td>
+                            <td>$49.00</td>
+                            <td>
+                                <span class="qtybtn">−</span>
+                                <input type="text" class="qty" value="1">
+                                <span class="qtybtn">+</span>
+                            </td>
+                            <td>$49.00</td>
+                            <td><span class="rmv">✕</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="Images/product-2.png" class="prdimg"></td>
+                            <td class="fw-bold">Kruzo Aero</td>
+                            <td>$78.00</td>
+                            <td>
+                                <span class="qtybtn">−</span>
+                                <input type="text" class="qty" value="1">
+                                <span class="qtybtn">+</span>
+                            </td>
+                            <td>$78.00</td>
+                            <td><span class="rmv">✕</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="Images/product-3.png" class="prdimg"></td>
+                            <td class="fw-bold">Ergonomic Chair</td>
+                            <td>$43.00</td>
+                            <td>
+                                <span class="qtybtn">−</span>
+                                <input type="text" class="qty" value="2">
+                                <span class="qtybtn">+</span>
+                            </td>
+                            <td>$86.00</td>
+                            <td><span class="rmv">✕</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <button class="btndark">Update Cart</button>
+                    <button class="btndark">Continue Shopping</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="coupn">
+                        <input type="text" placeholder="Coupon Code">
+                        <button class="btndark">Apply</button>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-2">
+                    <div class="totalbx">
+                        <h5>Cart Totals</h5>
+                        <div class="totalrow">
+                            <span>Subtotal</span>
+                            <span>$213.00</span>
+                        </div>
+                        <div class="totalrow">
+                            <span>Shipping</span>
+                            <span>$10.00</span>
+                        </div>
+                        <div class="totalrow">
+                            <span>Total</span>
+                            <span class="fw-bold">$223.00</span>
+                        </div>
+                        <button class="btnchk">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nl">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <div class="d-flex gap-2">
+                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <button class="btn btn-success px-4">→</button>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="Images/sofa.png" width="200">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ftr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="fw-bold">Furni.</h4>
+                    <p class="text-muted small">Your cart is waiting. Complete your purchase today.</p>
+                </div>
+                <div class="col-md-2">
+                    <h6>About</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li>Services</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Support</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li>Contact</li>
+                        <li>Policy</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Company</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li>Team</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between small">
+                <span>Copyright © 2026</span>
+                <div><span class="me-3">Terms</span><span>Privacy</span></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
